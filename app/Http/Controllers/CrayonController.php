@@ -14,7 +14,7 @@ class CrayonController extends Controller
         return view('crayons.index', compact('crayons'));
     }
 
-    // Afficher le formulaire de création de crayon
+    // Afficher le formulaire de création de crayona
     public function create()
     {
         return view('crayons.create');
